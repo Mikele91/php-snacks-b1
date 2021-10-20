@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.logo, ul{
+    margin: .5rem;
+    display: flex;
+}
+.text{
+    margin-left: 3rem;
+}
+li{
+    list-style: none;
+    margin-right: .8rem ;
+}
+
+li:last-child{
+    height: 29px;
+
+    color: blue; 
+    /* padding-bottom: 30px; */
+    border-bottom: 2px solid blue;
+}
+header{
+    border-bottom: 1px solid grey;
+    height: 60px;
+}
+.container{
+    max-width: 75rem;
+    margin:auto;
+}
+h2{
+    margin: 50px 0;
+}
