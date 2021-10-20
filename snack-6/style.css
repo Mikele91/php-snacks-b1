@@ -1,0 +1,17 @@
+.insegnanti{
+    display: flex;
+    width: 25rem;
+    height: 18.75rem;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.studenti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25rem;
+    height: 18.75rem;
+    background-color: green;
+}
